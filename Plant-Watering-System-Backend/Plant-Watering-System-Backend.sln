@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30128.74
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plant-Watering-System-Backend", "Plant-Watering-System-Backend\Plant-Watering-System-Backend.csproj", "{4759F247-48CB-4EEA-96D4-9644133A5249}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4759F247-48CB-4EEA-96D4-9644133A5249}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4759F247-48CB-4EEA-96D4-9644133A5249}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4759F247-48CB-4EEA-96D4-9644133A5249}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4759F247-48CB-4EEA-96D4-9644133A5249}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5C1A9847-E4D0-4F0F-8B74-22F0A5042B49}
+	EndGlobalSection
+EndGlobal
