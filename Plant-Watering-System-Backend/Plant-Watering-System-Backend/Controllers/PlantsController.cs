@@ -41,6 +41,25 @@ namespace Plant_Watering_System_Backend.Controllers
             return plant;
         }
 
+        // PUT: api/Plants
+        [HttpPut]
+        public async Task<ActionResult<IEnumerable<Plant>>> UpdateWateringStatus([FromBody]IDictionary<string, int> updates)  
+        { 
+            foreach(var pair in updates)
+            {
+                var plant = await _context.Plants.FindAsync(int.Parse(pair.Key));
+                if (plant != null) {
+                    plant.wateringStatus = pair.Value;
+                    plant.lastWateredTime = DateTime.Now;
+                    _context.Plants.Update(plant);
+                }
+            }
+
+            await _context.SaveChangesAsync();
+
+            return await _context.Plants.ToListAsync();
+        }
+
         // PUT: api/Plants/5
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
         // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
@@ -82,6 +101,7 @@ namespace Plant_Watering_System_Backend.Controllers
         [HttpPost]
         public async Task<ActionResult<Plant>> PostPlant(Plant plant)
         {
+            plant.lastWateredTime = DateTime.Now;
             _context.Plants.Add(plant);
             await _context.SaveChangesAsync();
 
