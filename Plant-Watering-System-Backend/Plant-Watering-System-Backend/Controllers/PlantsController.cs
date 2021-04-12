@@ -42,6 +42,7 @@ namespace Plant_Watering_System_Backend.Controllers
         }
 
         // PUT: api/Plants
+        // Dictionary was used to support watering multiple plant at the same time
         [HttpPut]
         public async Task<ActionResult<IEnumerable<Plant>>> UpdateWateringStatus([FromBody]IDictionary<string, int> updates)  
         { 
