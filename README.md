@@ -1,5 +1,8 @@
 # Plant-Watering-System
  An app to monitor plants and water them remotely
+ 
+## Note: 
+ There is an experimental branch that I have been working on that allows the user to batch start and stop watering the plants in addition to the requirements of the assessment.
 
 # Technologies used
 * [React JS](https://reactjs.org/) (Javascript Library)
