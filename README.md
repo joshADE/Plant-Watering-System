@@ -38,3 +38,7 @@
 15. Navigate to the file src > actions > api.js and make sure that the baseUrl variable has the same port number as the backend server as mentioned in step 12.
 16. Run the application by typing "npm start" in terminal and pressing enter.
 16.1 You may get a message saying that something is running on port 3000 and may be propmted to run the application on another port. If you decide to run the application on another port, go back to step 9 and change the port number to the corresponding port. 
+
+# Screenshots
+
+![Screenshot of app](Screenshots/screenshot1.PNG)
