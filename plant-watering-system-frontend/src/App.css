@@ -54,6 +54,15 @@
   margin-left: 1px;
 }
 
+.stop-button {
+  background-color: #e38e83;
+  border: 1px solid #882020;
+}
+
+.start-button {
+  background-color: #BCE383;
+  border: 1px solid #398820;
+}
 
 .all-plants {
   width: min(90%, 1200px);
@@ -75,7 +84,7 @@
 }
 
 .plant-image {
-  height: 50%;
+  height: 40%;
   display: flex;
   background-color: #fff;
   justify-content: center;
@@ -93,6 +102,16 @@
 .plant-details {
   padding: 10px;
   font-size: 10px;
+}
+
+.watering-option {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.water-checkbox {
+  display: inline-block;
 }
 
 .plant-form-wrapper {
