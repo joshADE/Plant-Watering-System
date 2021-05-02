@@ -21,7 +21,7 @@
 
 1. Download or clone the repository
 1.1 Extract the folder from the .zip file if you downloaded it
-2. Open the folder and you will find three sub folders, the Backend folder and the frontend folder
+2. Open the folder and you will find three sub folders, two of which are the Backend folder and the frontend folder
 3. Go inside the Backend folder an open the "Plant-Watering-System-Backend.sln" file with Visual Studio.
 4. If you recieve a security warning when opening the file in Visual Studio, click ok and accept the warning.
 5. In Visual Studio, open the file appsettings.json
